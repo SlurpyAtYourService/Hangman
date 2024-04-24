@@ -121,7 +121,7 @@
 
   // adding dictionary and word filter //
   var hangmanWords = [
-    "the","of","and","a","to","in","is","you","that","it","he",
+    "the","of","and","one","to","in","is","you","that","it","he",
      "was","for","on","are","as","with","his","they","i","at","be",
      "this","have","from","or","one","had","by","word","but","not",
      "what","all","were","we","when","your","can","said","there",
@@ -131,7 +131,11 @@
      "look","two","more","write","go","see","number","no","way",
      "could","people","my","than","first","water","been","call",
      "who","oil","its","now","find","long","down","day","did","get",
-     "come","made","may","part"
+     "come","made","may","part", "banana", "rose", "roller coaster",
+     "food","hard","huge","education","school","calculator","twin",
+     "friend","chat","cat","dog","teacher","student","cool","explode",
+     "explosion","titan","voice","deep","light","pitch","sports",
+     "baseball","football","basketball","tennis","ping pong","walk"
   ];
 
   var easyArray = hangmanWords.filter(function(word){
